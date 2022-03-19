@@ -1,0 +1,906 @@
+{
+    "champions": {
+        "kayle": {
+            "roles": [
+                "mid",
+                "top"
+            ],
+            "damageType": "either",
+            "supportGiven": 5,
+            "supportNeeded": 7,
+            "strengths": {
+                "earlyGame": 1,
+                "lateGame": 9,
+                "earlyGameWaveclear": 1,
+                "lateGameWaveclear": 8,
+                "splitpush": 7,
+                "crowdControl": 1,
+                "healing": 3,
+                "teamfight": 7,
+                "dueling": 5,
+                "tankiness": 3
+            },
+            "weaknesses": [
+                "hardCC"
+            ],
+            "pickWith": [
+                "teamfighters",
+                "peelers",
+                "carries"
+            ],
+            "uniqueStrengths": [
+                "protects another carry"
+            ],
+            "counters": [
+                "tryndamere",
+                "cassiopeia",
+                "akshan",
+                "viktor",
+                "renata glasc"
+            ]
+        },
+        "jayce": {
+            "roles": [
+                "mid",
+                "top",
+                "adc"
+            ],
+            "damageType": "either",
+            "supportGiven": 2,
+            "supportNeeded": 7,
+            "strengths": {
+                "earlyGame": 3,
+                "lateGame": 8,
+                "earlyGameWaveclear": 2,
+                "lateGameWaveclear": 7,
+                "splitpush": 6,
+                "crowdControl": 2,
+                "healing": 0,
+                "teamfight": 6,
+                "dueling": 5,
+                "tankiness": 1
+            },
+            "weaknesses": [
+                "hardCC"
+            ],
+            "pickWith": [
+                "peelers",
+                "disengagers",
+                "teamfighters",
+                "healers"
+            ],
+            "uniqueStrengths": [
+                "both short and long range"
+            ],
+            "counters": [
+                "rengar",
+                "dr. mundo",
+                "tahm kench",
+                "cho'gath",
+                "quinn"
+            ]
+        },
+        "orianna": {
+            "roles": [
+                "mid"
+            ],
+            "damageType": "magic",
+            "supportGiven": 4,
+            "supportNeeded": 7,
+            "strengths": {
+                "earlyGame": 3,
+                "lateGame": 8,
+                "earlyGameWaveclear": 5,
+                "lateGameWaveclear": 7,
+                "splitpush": 3,
+                "crowdControl": 7,
+                "healing": 0,
+                "teamfight": 8,
+                "dueling": 3,
+                "tankiness": 2
+            },
+            "weaknesses": [
+                "hardCC"
+            ],
+            "pickWith": [
+                "engagers",
+                "teamfighters"
+            ],
+            "uniqueStrengths": [
+                "can fight from a distance with her ball"
+            ],
+            "counters": [
+                "lux",
+                "zed",
+                "zoe",
+                "annie",
+                "tryndamere",
+                "qiyana"
+            ]
+        },
+        "thresh": {
+            "roles": [
+                "support"
+            ],
+            "damageType": "na",
+            "supportGiven": 10,
+            "supportNeeded": 0,
+            "strengths": {
+                "earlyGame": 7,
+                "lateGame": 7,
+                "earlyGameWaveclear": 1,
+                "lateGameWaveclear": 1,
+                "splitpush": 0,
+                "crowdControl": 9,
+                "healing": 0,
+                "teamfight": 8,
+                "dueling": 0,
+                "tankiness": 7
+            },
+            "weaknesses": [],
+            "pickWith": [
+                "engagers",
+                "teamfighters"
+            ],
+            "uniqueStrengths": [
+                "can fight from a distance with her ball"
+            ],
+            "counters": [
+                "renata glasc",
+                "senna",
+                "taric",
+                "swain",
+                "janna",
+                "soraka"
+            ]
+        },
+        "yasuo": {
+            "roles": [
+                "mid",
+                "top",
+                "adc"
+            ],
+            "damageType": "physical",
+            "supportGiven": 3,
+            "supportNeeded": 8,
+            "strengths": {
+                "earlyGame": 3,
+                "lateGame": 8,
+                "earlyGameWaveclear": 3,
+                "lateGameWaveclear": 7,
+                "splitpush": 7,
+                "crowdControl": 3,
+                "healing": 0,
+                "teamfight": 8,
+                "dueling": 5,
+                "tankiness": 4
+            },
+            "weaknesses": [
+                "hardCC"
+            ],
+            "pickWith": [
+                "teamfighters",
+                "engagers",
+                "knockups"
+            ],
+            "uniqueStrengths": [
+                "amplifies knockups",
+                "counters large projectiles with wind wall"
+            ],
+            "counters": [
+                "vex",
+                "qiyana",
+                "lissandra",
+                "vladimir",
+                "annie",
+                "akali"
+            ]
+        },
+        "syndra": {
+            "damageType": "magic",
+            "supportGiven": 3,
+            "supportNeeded": 8,
+            "strengths": {
+                "earlyGame": 3,
+                "lateGame": 8,
+                "earlyGameWaveclear": 3,
+                "lateGameWaveclear": 7,
+                "splitpush": 7,
+                "crowdControl": 3,
+                "healing": 0,
+                "teamfight": 8,
+                "dueling": 5,
+                "tankiness": 1
+            },
+            "weaknesses": [
+                "hardCC"
+            ],
+            "pickWith": [
+                "teamfighters",
+                "peelers"
+            ],
+            "uniqueStrengths": [
+                "single-target burst"
+            ],
+            "counters": [
+                "malzahar",
+                "kassadin",
+                "fizz",
+                "zed",
+                "vlad",
+                "veigar"
+            ]
+        },
+        "lux": {
+            "damageType": "magic",
+            "supportGiven": 5,
+            "supportNeeded": 4,
+            "strengths": {
+                "earlyGame": 3,
+                "lateGame": 8,
+                "earlyGameWaveclear": 6,
+                "lateGameWaveclear": 8,
+                "splitpush": 3,
+                "crowdControl": 5,
+                "healing": 0,
+                "teamfight": 8,
+                "dueling": 3,
+                "tankiness": 1
+            },
+            "weaknesses": [
+                "hardCC"
+            ],
+            "pickWith": [
+                "teamfighters",
+                "peelers",
+                "disengagers"
+            ],
+            "uniqueStrengths": [
+                "AOE damage"
+            ],
+            "counters": [
+                "pyke",
+                "blitzcrank",
+                "tahm kench",
+                "pantheon",
+                "fizz",
+                "veigar"
+            ]
+        },
+        "lulu": {
+            "damageType": "magic",
+            "supportGiven": 9,
+            "supportNeeded": 1,
+            "strengths": {
+                "earlyGame": 5,
+                "lateGame": 6,
+                "earlyGameWaveclear": 6,
+                "lateGameWaveclear": 4,
+                "splitpush": 1,
+                "crowdControl": 5,
+                "healing": 0,
+                "teamfight": 7,
+                "dueling": 1,
+                "tankiness": 3
+            },
+            "weaknesses": [
+                "hardCC"
+            ],
+            "pickWith": [
+                "teamfighters",
+                "carries",
+                "engagers",
+                "disengagers"
+            ],
+            "uniqueStrengths": [
+                "protects a carry well"
+            ],
+            "counters": [
+                "pyke",
+                "blitzcrank",
+                "senna",
+                "janna"
+            ]
+        },
+        "kai'sa": {
+            "damageType": "both",
+            "supportGiven": 1,
+            "supportNeeded": 7,
+            "strengths": {
+                "earlyGame": 2,
+                "lateGame": 8,
+                "earlyGameWaveclear": 5,
+                "lateGameWaveclear": 6,
+                "splitpush": 3,
+                "crowdControl": 0,
+                "healing": 0,
+                "teamfight": 7,
+                "dueling": 5,
+                "tankiness": 3
+            },
+            "weaknesses": [
+                "hardCC"
+            ],
+            "pickWith": [
+                "teamfighters",
+                "engagers",
+                "disengagers",
+                "peelers"
+            ],
+            "uniqueStrengths": [
+                "can be built AP or AD",
+                "can both poke and engage"
+            ],
+            "counters": [
+                "veigar",
+                "zeri"
+            ]
+        },
+        "vayne": {
+            "damageType": "physical",
+            "supportGiven": 1,
+            "supportNeeded": 7,
+            "strengths": {
+                "earlyGame": 2,
+                "lateGame": 8,
+                "earlyGameWaveclear": 1,
+                "lateGameWaveclear": 2,
+                "splitpush": 3,
+                "crowdControl": 1,
+                "healing": 0,
+                "teamfight": 6,
+                "dueling": 8,
+                "tankiness": 2
+            },
+            "weaknesses": [
+                "hardCC"
+            ],
+            "pickWith": [
+                "teamfighters",
+                "peelers"
+            ],
+            "uniqueStrengths": [
+                "does significant true damage late game"
+            ],
+            "counters": [
+                "veigar",
+                "vi",
+                "draven",
+                "zed"
+            ]
+        },
+        "caitlyn": {
+            "damageType": "physical",
+            "supportGiven": 4,
+            "supportNeeded": 4,
+            "strengths": {
+                "earlyGame": 5,
+                "lateGame": 7,
+                "earlyGameWaveclear": 5,
+                "lateGameWaveclear": 4,
+                "splitpush": 3,
+                "crowdControl": 3,
+                "healing": 0,
+                "teamfight": 8,
+                "dueling": 3,
+                "tankiness": 1
+            },
+            "weaknesses": [
+                "hardCC"
+            ],
+            "pickWith": [
+                "teamfighters",
+                "engagers",
+                "disengagers",
+                "peelers"
+            ],
+            "uniqueStrengths": [
+                "can zone an enemy off with traps",
+                "can both poke and peel for herself"
+            ],
+            "counters": [
+                "veigar",
+                "zeri",
+                "tristana",
+                "twitch"
+            ]
+        },
+        "ashe": {
+            "damageType": "physical",
+            "supportGiven": 6,
+            "supportNeeded": 7,
+            "strengths": {
+                "earlyGame": 3,
+                "lateGame": 7,
+                "earlyGameWaveclear": 5,
+                "lateGameWaveclear": 5,
+                "splitpush": 2,
+                "crowdControl": 6,
+                "healing": 0,
+                "teamfight": 7,
+                "dueling": 2,
+                "tankiness": 1
+            },
+            "weaknesses": [
+                "hardCC"
+            ],
+            "pickWith": [
+                "teamfighters",
+                "disengagers",
+                "peelers"
+            ],
+            "uniqueStrengths": [
+                "AOE slow and long range skillshot stun"
+            ],
+            "counters": [
+                "veigar",
+                "zeri",
+                "tristana"
+            ]
+        },
+        "jinx": {
+            "damageType": "physical",
+            "supportGiven": 3,
+            "supportNeeded": 8,
+            "strengths": {
+                "earlyGame": 2,
+                "lateGame": 9,
+                "earlyGameWaveclear": 5,
+                "lateGameWaveclear": 7,
+                "splitpush": 6,
+                "crowdControl": 4,
+                "healing": 0,
+                "teamfight": 8,
+                "dueling": 3,
+                "tankiness": 1
+            },
+            "weaknesses": [
+                "hardCC"
+            ],
+            "pickWith": [
+                "teamfighters",
+                "engagers",
+                "disengagers",
+                "peelers"
+            ],
+            "uniqueStrengths": [
+                "can be built AP or AD",
+                "can both poke and engage"
+            ],
+            "counters": [
+                "veigar",
+                "zeri"
+            ]
+        }
+    },
+    "damageTypes": [
+        "physical",
+        "magic",
+        "either",
+        "both"
+    ],
+    "myChampionPool": {
+        "top": [
+            "jayce",
+            "yasuo",
+            "kayle",
+            "kennen",
+            "riven"
+        ],
+        "jungle": [
+            "kha'zix",
+            "lee sin",
+            "diana",
+            "jarvan iv",
+            "nidalee",
+            "elise",
+            "shyvana",
+            "olaf"
+        ],
+        "mid": [
+            "yasuo",
+            "twisted fate",
+            "lux",
+            "orianna",
+            "zed",
+            "syndra",
+            "xerath",
+            "kai'sa"
+        ],
+        "bot": [
+            "yasuo",
+            "kai'sa",
+            "caitlyn",
+            "ashe",
+            "vayne",
+            "kalista",
+            "jinx",
+            "ezreal",
+            "xayah",
+            "draven"
+        ],
+        "support": [
+            "thresh",
+            "lux",
+            "bard",
+            "lulu",
+            "alistar",
+            "blitzcrank"
+        ]
+    },
+    "identities": {
+        "byLocation": {
+            "splitpushers": [
+                "camille",
+                "fiora",
+                "garen",
+                "jax",
+                "nasus",
+                "quinn",
+                "singed",
+                "sion",
+                "tryndamere",
+                "twisted fate",
+                "yorick"
+            ],
+            "teamfighters": [
+                "alistar",
+                "amumu",
+                "anivia",
+                "annie",
+                "aphelios",
+                "ashe",
+                "aurelion sol",
+                "azir",
+                "bard",
+                "brand",
+                "braum",
+                "caitlyn",
+                "cassiopeia",
+                "cho'gath",
+                "darius",
+                "diana",
+                "dr. mundo",
+                "ekko",
+                "ezreal",
+                "fiddlesticks",
+                "galio",
+                "gangplank",
+                "gnar",
+                "gragas",
+                "gwen",
+                "hecarim",
+                "heimerdinger",
+                "illaoi",
+                "ivern",
+                "janna",
+                "jhin",
+                "jinx",
+                "kayle",
+                "kennen",
+                "kindred",
+                "kled",
+                "leona",
+                "lissandra",
+                "lulu",
+                "lux",
+                "malphite",
+                "malzahar",
+                "maokai",
+                "miss fortune",
+                "mordekaiser",
+                "morgana",
+                "nami",
+                "nautilus",
+                "neeko",
+                "nunu & willump",
+                "orianna",
+                "ornn",
+                "qiyana",
+                "rakan",
+                "rell",
+                "renata glasc",
+                "rumble",
+                "samira",
+                "sejuani",
+                "senna",
+                "seraphine",
+                "shen",
+                "shyvana",
+                "sivir",
+                "skarner",
+                "sona",
+                "soraka",
+                "swain",
+                "sylas",
+                "tahm kench",
+                "taliyah",
+                "taric",
+                "thresh",
+                "tristana",
+                "twisted fate",
+                "twitch",
+                "varus",
+                "veigar",
+                "vel'koz",
+                "vex",
+                "viktor",
+                "vladimir",
+                "volibear",
+                "wukong",
+                "xayah",
+                "xerath",
+                "xin zhao",
+                "yasuo",
+                "yuumi",
+                "zac",
+                "ziggs",
+                "zilean",
+                "zyra"
+            ],
+            "skirmishers": [
+                "aatrox",
+                "akali",
+                "akshan",
+                "blitzcrank",
+                "corki",
+                "draven",
+                "elise",
+                "evelynn",
+                "fizz",
+                "graves",
+                "irelia",
+                "jarvan iv",
+                "jayce",
+                "kai'sa",
+                "kayn",
+                "kha'zix",
+                "kog'maw",
+                "leblanc",
+                "lee sin",
+                "lillia",
+                "lucian",
+                "mastery yi",
+                "nidalee",
+                "nocturne",
+                "olaf",
+                "pantheon",
+                "poppy",
+                "pyke",
+                "quinn",
+                "rammus",
+                "rek'sai",
+                "renekton",
+                "rengar",
+                "riven",
+                "ryze",
+                "sett",
+                "shaco",
+                "syndra",
+                "talon",
+                "teemo",
+                "trundle",
+                "udyr",
+                "urgot",
+                "vayne",
+                "vi",
+                "viego",
+                "warwick",
+                "yone",
+                "zed",
+                "zeri",
+                "zoe"
+            ]
+        },
+        "byEngagement": {
+            "engagers": [
+                "alistar",
+                "amumu",
+                "annie",
+                "aurelion sol",
+                "azir",
+                "camille",
+                "darius",
+                "diana",
+                "fiddlesticks",
+                "gnar",
+                "gragas",
+                "hecarim",
+                "lee sin",
+                "irelia",
+                "jarvan iv",
+                "kennen",
+                "kled",
+                "lissandra",
+                "leona",
+                "malphite",
+                "maokai",
+                "nami",
+                "nautilus",
+                "nocturne",
+                "pantheon",
+                "rakan",
+                "rammus",
+                "rell",
+                "sett",
+                "shen",
+                "shyvana",
+                "sion",
+                "skarner",
+                "tahm kench",
+                "taliyah",
+                "thresh",
+                "twisted fate",
+                "udyr",
+                "varus",
+                "vex",
+                "vi",
+                "vladimir",
+                "volibear",
+                "warwick",
+                "wukong",
+                "xin zhao",
+                "yone",
+                "zac",
+                "zed"
+            ],
+            "disengagers": [
+                "nami",
+                "janna",
+                "braum",
+                "cassiopeia",
+                "janna",
+                "lux",
+                "lulu",
+                "kog'maw",
+                "renata glasc",
+                "orianna",
+                "poppy",
+                "sona",
+                "soraka",
+                "yuumi",
+                "ziggs",
+                "zilean",
+                "zyra"
+            ]
+        },
+        "zoneControllers": [
+            "anivia",
+            "azir",
+            "aurelion sol",
+            "brand",
+            "caitlyn",
+            "cassiopeia",
+            "ekko",
+            "galio",
+            "gangplank",
+            "gnar",
+            "gragas",
+            "heimerdinger",
+            "illaoi",
+            "janna",
+            "jarvan iv",
+            "karthus",
+            "kennen",
+            "kindred",
+            "lissandra",
+            "lux",
+            "maokai",
+            "miss fortune",
+            "morgana",
+            "neeko",
+            "nunu & willump",
+            "orianna",
+            "rumble",
+            "seraphine",
+            "swain",
+            "taliyah",
+            "thresh",
+            "varus",
+            "veigar",
+            "vel'koz",
+            "vex",
+            "viktor",
+            "ziggs",
+            "zyra"
+        ],
+        "catchers": [
+            "ahri",
+            "akshan",
+            "alistar",
+            "amumu",
+            "ashe",
+            "bard",
+            "blitzcrank",
+            "braum",
+            "camille",
+            "ekko",
+            "elise",
+            "evelynn",
+            "irelia",
+            "gragas",
+            "jarvan iv",
+            "kassadin",
+            "leona",
+            "lissandra",
+            "lux",
+            "maokai",
+            "morgana",
+            "nautilus",
+            "pantheon",
+            "pyke",
+            "qiyana",
+            "quinn",
+            "rakan",
+            "rammus",
+            "rengar",
+            "shaco",
+            "singed",
+            "sivir",
+            "skarner",
+            "sylas",
+            "tahm kench",
+            "thresh",
+            "trundle",
+            "udyr",
+            "varus",
+            "volibear",
+            "warwick",
+            "xerath",
+            "xin zhao",
+            "zac"
+        ],
+        "peelers": [
+            "alistar",
+            "anivia",
+            "bard",
+            "braum",
+            "janna",
+            "karma",
+            "leona",
+            "lulu",
+            "lux",
+            "morgana",
+            "nami",
+            "renata glasc",
+            "seraphine",
+            "sona",
+            "soraka",
+            "taric",
+            "thresh",
+            "yuumi",
+            "zilean",
+            "zyra"
+        ],
+        "pokers": [
+            "caitlyn",
+            "corki",
+            "ezreal",
+            "jayce",
+            "kog'maw",
+            "lux",
+            "nidalee",
+            "varus",
+            "vel'koz",
+            "xerath",
+            "ziggs",
+            "zoe",
+            "zyra"
+        ],
+        "assassins": [
+            "ahri",
+            "akali",
+            "ekko",
+            "evelynn",
+            "fizz",
+            "kassadin",
+            "kayn",
+            "kha'zix",
+            "leblanc",
+            "pyke",
+            "rengar",
+            "talon",
+            "zed"
+        ]
+    }
+}
